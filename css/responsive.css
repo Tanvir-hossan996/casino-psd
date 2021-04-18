@@ -1,0 +1,543 @@
+/*medium device start*/
+
+@media (min-width:768px) and (max-width:991px) {
+
+
+    .navbar-toggler {
+
+        border-color: white;
+        color: white;
+        margin-right: 30px;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link {
+
+        text-align: left;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .navbar .navbar-nav .login .login-link {
+
+
+        margin: 0px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .navbar .navbar-nav .signup .sign-link {
+
+
+        margin: 0px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    #banner .banner-img {
+
+        margin: 0px;
+        margin-top: 40px;
+    }
+
+    #banner .banner-text {
+        padding-top: 0px;
+    }
+
+    #banner .banner-text h4 {
+
+        top: 3px
+    }
+
+    #banner .banner-text h1 {
+
+        font-size: 200px;
+    }
+
+    #banner .banner-text p {
+
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    #game {
+
+        padding-top: 160px;
+        padding-bottom: 60px;
+    }
+
+    #game .game-item .overlay h3 {
+
+        padding-top: 70px;
+    }
+
+
+    #spin {
+
+        padding-top: 40px;
+    }
+
+    #spin .spin-content {
+
+        padding-top: 0px;
+    }
+
+    #spin .spin-content h2 {
+
+        padding-bottom: 10px;
+    }
+
+    #spin .spin-content p {
+
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    #spin .spin-content p:first-of-type {
+
+        padding-bottom: 10px;
+    }
+
+    #spin .spin-content p:last-of-type {
+
+        padding-bottom: 20px;
+    }
+
+    #pricing {
+
+        padding-top: 40px;
+        padding-bottom: 0px;
+    }
+
+    #pricing .pricing-content .pricing-item:last-of-type {
+
+        margin-bottom: 100px;
+    }
+
+    #question {
+
+        padding: 40px;
+    }
+
+    #question h2 {
+
+        font-size: 28px;
+        padding-bottom: 15px;
+    }
+
+    #question .question-left ul li {
+
+        padding-top: 30px;
+        font-size: 20px;
+    }
+
+    #question .question-left .text {
+
+        margin-top: 30px;
+    }
+
+    #question .question-left .text p {
+
+        font-size: 16px;
+    }
+    
+    #question .question-right{
+        
+        padding-top: 30px;
+    }
+
+    #question .question-right ul li {
+
+        padding: 15px 0px;
+    }
+
+    #payment .offer input {
+
+        width: 280px;
+    }
+
+    footer {
+
+        padding: 40px 0px;
+    }
+
+
+    footer .jackpot ul li a i {
+
+        margin-right: 4px;
+    }
+
+}
+
+
+/*medium device end*/
+
+/*small device start*/
+
+@media (min-width:576px) and (max-width:767px) {
+
+
+
+    .navbar-toggler {
+
+        border-color: white;
+        color: white;
+        margin-right: 20px;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link {
+
+        text-align: left;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .navbar .navbar-nav .login .login-link {
+
+
+        margin: 0px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .navbar .navbar-nav .signup .sign-link {
+
+
+        margin: 0px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+
+    #banner .banner-img {
+
+        margin: 0px;
+        margin-top: 40px;
+    }
+
+    #banner .banner-text {
+        padding-top: 0px;
+    }
+
+    #banner .banner-text h1 {
+
+        font-size: 150px;
+    }
+
+    #banner .banner-text h4 {
+
+        top: -5px
+    }
+
+    #banner .banner-text p {
+
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    #banner .banner-text a {
+
+        padding: 15px 20px;
+    }
+
+    #funfact {}
+
+    #funfact .funfact-item {
+
+        width: 100%;
+        padding: 30px 0px;
+        transform: perspective(0px) rotateY(0deg);
+    }
+
+    #game {
+
+        padding-bottom: 0px;
+    }
+
+    #game .game-item {
+
+        margin-bottom: 50px;
+    }
+    
+    #funfact .funfact-item p{
+        
+        font-size: 14px;
+    }
+
+    #spin {
+
+        padding-top: 0px;
+    }
+
+    #spin .spin-content p {
+
+        padding-right: 25px;
+        font-size: 14px;
+    }
+
+    #spin .spin-content p:first-of-type {
+
+        padding-bottom: 10px;
+    }
+
+    #spin .spin-content p:last-of-type {
+
+        padding-bottom: 20px;
+    }
+
+    #spin .spin-img {
+
+        padding-top: 45px;
+    }
+
+    #pricing {
+
+        padding-top: 40px;
+        padding-bottom: 0px;
+    }
+
+    #pricing .pricing-content .pricing-item:last-of-type {
+
+        margin-bottom: 100px;
+    }
+
+    #question {
+
+        padding: 40px;
+    }
+
+
+
+    #question h2 {
+
+        padding-bottom: 15px;
+    }
+
+    #question .question-left ul li {
+
+        font-size: 16px;
+        padding-top: 40px;
+    }
+
+    .question-right {
+
+        padding-top: 40px;
+    }
+
+    #question .question-right ul li {
+
+        padding: 17px 0px;
+    }
+
+    #payment .offer input {
+
+        width: 445px;
+    }
+
+
+    .payment {
+
+        padding-top: 40px;
+    }
+
+
+    footer .links {
+
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+
+}
+
+
+/*small device end*/
+
+
+/*extra small device start*/
+
+
+@media (max-width:575.98px) {
+
+
+    .navbar-toggler {
+
+        border-color: white;
+        color: white;
+        margin-right: 40px;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link {
+
+        text-align: left;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .navbar .navbar-nav .login .login-link {
+
+
+        margin: 0px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .navbar .navbar-nav .signup .sign-link {
+
+
+        margin: 0px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    #banner {
+
+        padding-bottom: 200px;
+    }
+
+
+    #banner .banner-img {
+
+        margin: 0px;
+        margin-top: 40px;
+    }
+
+    #banner .banner-text {
+        padding-top: 0px;
+    }
+
+    #banner .banner-text h4 {
+
+        top: -13px
+    }
+
+    #banner .banner-text h1 {
+
+        font-size: 100px;
+    }
+
+    #banner .banner-text p {
+
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    #banner .banner-text a {
+
+        padding: 15px 20px;
+    }
+
+    #funfact {}
+
+    #funfact .funfact-item {
+
+        width: 100%;
+        padding: 30px 0px;
+        transform: perspective(0px) rotateY(0deg);
+    }
+
+    #game {
+
+        padding-bottom: 0px;
+    }
+
+    #game .game-item {
+
+        margin-bottom: 50px;
+    }
+
+    #game .game-item .overlay h3 {
+
+        padding-top: 230px;
+    }
+    
+    #funfact .funfact-item p{
+        
+        font-size: 14px;
+    }
+
+    #spin {
+
+        padding-top: 0px;
+    }
+
+    #spin .spin-content p {
+
+        padding-right: 25px;
+        font-size: 14px;
+    }
+
+    #spin .spin-content p:first-of-type {
+
+        padding-bottom: 10px;
+    }
+
+    #spin .spin-content p:last-of-type {
+
+        padding-bottom: 20px;
+    }
+
+    #spin .spin-img {
+
+        padding-top: 45px;
+    }
+
+    #pricing {
+
+        padding-top: 40px;
+        padding-bottom: 0px;
+    }
+
+    #pricing .pricing-content .pricing-item:last-of-type {
+
+        margin-bottom: 100px;
+    }
+
+    #question {
+
+        padding: 40px;
+    }
+
+
+
+    #question h2 {
+
+        padding-bottom: 15px;
+    }
+
+    #question .question-left ul li {
+
+        font-size: 16px;
+        padding-top: 40px;
+    }
+
+    .question-right {
+
+        padding-top: 40px;
+    }
+
+    #question .question-right ul li {
+
+        padding: 17px 0px;
+    }
+
+    #payment .offer input {
+
+        width: 445px;
+    }
+
+
+    .payment {
+
+        padding-top: 40px;
+    }
+
+
+    footer .links {
+
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+
+
+}
+
+/*extra small device end*/

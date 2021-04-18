@@ -1,0 +1,964 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+i,
+img {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* common css end */
+/* variable css start */
+/* variable css end */
+/* mixing css start*/
+/* mixing css end*/
+/* extend css start*/
+/* extend css end*/
+
+/*preloder section start*/
+
+
+.preloder {
+
+    width: 100%;
+    height: 100vh;
+    background: #a2a2a2;
+    position: relative;
+    z-index: 9999999999999999999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.preloder .loder span {
+
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: black;
+    margin-left: 10px;
+    animation: loading linear 2s infinite;
+}
+
+.preloder .loder span:nth-child(1){
+    
+    background: #025955;
+    animation-delay: -3s;
+}
+
+
+.preloder .loder span:nth-child(2){
+    
+    background: #7eca9c;
+    animation-delay: -2.7s;
+}
+
+
+.preloder .loder span:nth-child(3){
+    
+    background: #f39189;
+    animation-delay: -2.4s;
+}
+
+
+.preloder .loder span:nth-child(4){
+    
+    background: #f25287;
+    animation-delay: -2.1s;
+}
+
+
+.preloder .loder span:nth-child(5){
+    
+    background: #28527a;
+    animation-delay: -1.8s;
+}
+
+
+@keyframes loading{
+    
+    50%,70%{
+        
+        transform: scale(2);
+    }71%,100%{
+        
+        opacity: .2;
+    }
+}
+
+/*preloder section end*/
+
+/* navbar css start*/
+.navbar {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 9999999;
+}
+
+.navbar .navbar-brand {
+    padding-top: 0px;
+}
+
+.navbar .navbar-nav .login .login-link {
+    display: inline-block;
+    background: linear-gradient(to top, #5b10ca, #9c4cfb);
+    text-transform: uppercase;
+    font-size: 20px;
+    color: white;
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    padding: 8px 22px;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0px 4px 0px #3a0090;
+    margin-left: 30px;
+    text-shadow: 2px 3px 0px rgba(0, 0, 0, 0.53);
+}
+
+.navbar .navbar-nav .signup .sign-link {
+    display: inline-block;
+    background: linear-gradient(to top, #a90287, #fb37d9);
+    text-transform: uppercase;
+    font-size: 20px;
+    color: white;
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    padding: 8px 22px;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0px 4px 0px rgba(102, 19, 85, 0.89);
+    margin-left: 65px;
+    text-shadow: 2px 3px 0px rgba(0, 0, 0, 0.53);
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-size: 20px;
+    color: #944bff;
+    text-transform: capitalize;
+    transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+    padding: 0px;
+    padding: 0px 25px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    color: #f02fcd;
+}
+
+.navbar .navbar-nav .nav-item .active {
+    color: #f02fcd;
+}
+
+.active-navbar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background: rgba(11, 0, 27, 0.81);
+    z-index: 9999999999999;
+    animation: smoth linear 1s;
+}
+
+@keyframes smoth {
+    0% {
+        top: -70px;
+    }
+
+    100% {
+        top: 0px;
+    }
+}
+
+.navbar-toggler {
+    border-color: white;
+    color: white;
+    margin-right: 30px;
+}
+
+/* navbar css end*/
+/*modal star*/
+.modal-content {
+    padding: 20px 50px;
+}
+
+.modal-content h2 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-size: 25px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.modal-content form input {
+    width: 100%;
+    color: black;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    padding-left: 3px;
+    padding-bottom: 2px;
+    margin-bottom: 25px;
+}
+
+.modal-content form .last {
+    margin-bottom: 0px;
+}
+
+.modal-content form p {
+    text-align: center;
+    padding-top: 5px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.modal-content form p a {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-size: 18px;
+    color: black;
+}
+
+.modal-content form .sign-btn {
+    display: block;
+    padding: 7px 0px;
+    margin-top: 15px;
+    background: rgba(0, 0, 0, 0.83);
+    text-align: center;
+    color: white;
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+/*modal end*/
+/*banner section start*/
+#banner {
+    padding-top: 130px;
+    padding-bottom: 260px;
+    background: #150035;
+    position: relative;
+}
+
+#banner .banner-img {
+    margin-left: -110px;
+}
+
+#banner .banner-text {
+    padding-top: 85px;
+    position: relative;
+}
+
+#banner .banner-text h4 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-size: 20px;
+    color: white;
+    text-transform: capitalize;
+    letter-spacing: 6px;
+    position: absolute;
+    top: 100px;
+    left: 0px;
+}
+
+#banner .banner-text h1 {
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    font-size: 331px;
+    color: #f39f24;
+}
+
+#banner .banner-text h1 span {
+    text-shadow: 0px 0px 30px #ab048a;
+}
+
+#banner .banner-text p {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: white;
+}
+
+#banner .banner-text a {
+    display: inline-block;
+    text-align: center;
+    padding: 15px 25px;
+    background: linear-gradient(to top, #5a10cb, #9c4cfa);
+    color: white;
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -80px;
+    font-family: 'Anton', sans-serif;
+    font-size: 22px;
+    box-shadow: 0px 5px 0px #3a0090;
+    transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+    text-shadow: 2px 3px 0px rgba(0, 0, 0, 0.53);
+}
+
+/*banner section end*/
+/*funfac secion start*/
+#funfact {
+    position: absolute;
+    width: 100%;
+    bottom: -110px;
+    left: 0px;
+}
+
+#funfact .funfact-content {
+    background: linear-gradient(to right, #661ad3, #6418d1);
+    clip-path: polygon(0 14%, 100% 0, 100% 100%, 0 94%);
+    border-radius: 5px;
+}
+
+#funfact .funfact-content .funfact-item {
+    background: #944bff;
+    width: 100%;
+    padding: 30px 0px;
+    box-shadow: -5px 0px 50px #4e12a5;
+}
+
+#funfact .funfact-content .funfact-item h2 {
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    color: #fbb410;
+    padding-bottom: 20px;
+    text-shadow: 0px 2px 0px #4c0b88;
+    letter-spacing: 4px;
+}
+
+#funfact .funfact-content .funfact-item h4 {
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    color: white;
+    text-transform: capitalize;
+    padding-bottom: 15px;
+}
+
+#funfact .funfact-content .funfact-item p {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+}
+
+/*funfac secion end*/
+/*heading css start*/
+.heading h2 {
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    text-transform: capitalize;
+    color: #febd07;
+    padding-bottom: 60px;
+}
+
+/*heading css end*/
+/*game css start*/
+#game {
+    padding-top: 180px;
+    padding-bottom: 100px;
+    background: #0b001b;
+}
+
+#game .game-item {
+    position: relative;
+    overflow: hidden;
+}
+
+#game .game-item:hover .overlay {
+    left: 0px;
+}
+
+#game .game-item .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: -100%;
+    background: rgba(0, 0, 0, 0.78);
+    text-align: center;
+    transition: all linear 0.5s;
+    -moz-transition: all linear 0.5s;
+    -ms-transition: all linear 0.5s;
+    -webkit-transition: all linear 0.5s;
+    -o-transition: all linear 0.5s;
+}
+
+#game .game-item .overlay h3 {
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+    padding-top: 160px;
+    padding-bottom: 20px;
+    text-transform: capitalize;
+}
+
+#game .game-item .overlay a {
+    display: inline-block;
+    text-align: center;
+    padding: 12px 25px;
+    background: linear-gradient(to top, #5a10cb, #9c4cfa);
+    color: white;
+    border-radius: 5px;
+    font-family: 'Anton', sans-serif;
+    font-size: 22px;
+    box-shadow: 0px 5px 0px #3a0090;
+    text-shadow: 2px 3px 0px rgba(0, 0, 0, 0.53);
+}
+
+/*game css end*/
+/*spin css start*/
+#spin {
+    padding-top: 100px;
+    padding-bottom: 15px;
+    background: #150035;
+}
+
+#spin .spin-content {
+    padding-top: 75px;
+}
+
+#spin .spin-content h2 {
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    color: #febb05;
+    font-size: 48px;
+    text-transform: capitalize;
+    text-shadow: 3px 6px 0px black;
+    padding-bottom: 50px;
+}
+
+#spin .spin-content p {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    line-height: 26px;
+}
+
+#spin .spin-content p:first-of-type {
+    padding-bottom: 38px;
+}
+
+#spin .spin-content p:last-of-type {
+    padding-bottom: 60px;
+}
+
+#spin .spin-content a {
+    display: inline-block;
+    text-align: center;
+    padding: 15px 25px;
+    background: linear-gradient(to top, #5a10cb, #9c4cfa);
+    color: white;
+    border-radius: 5px;
+    bottom: -80px;
+    font-family: 'Anton', sans-serif;
+    font-size: 22px;
+    box-shadow: 0px 5px 0px #3a0090;
+    text-shadow: 2px 3px 0px rgba(0, 0, 0, 0.53);
+}
+
+/*spin css end*/
+/*pricing css start*/
+#pricing {
+    padding-top: 100px;
+    background: #0b001b;
+    padding-bottom: 80px;
+}
+
+#pricing .heading h2 {
+    padding-bottom: 90px;
+}
+
+#pricing .pricing-content .pricing-item {
+    position: relative;
+    background: linear-gradient(to top, #580fc9, #9d4efc);
+    padding-bottom: 50px;
+    border-radius: 5px;
+    transition: all linear 0.5s;
+    -moz-transition: all linear 0.5s;
+    -ms-transition: all linear 0.5s;
+    -webkit-transition: all linear 0.5s;
+    -o-transition: all linear 0.5s;
+}
+
+#pricing .pricing-content .pricing-item h5 {
+    background: linear-gradient(to top, #a90287, #fb37d9);
+    color: white;
+    position: absolute;
+    width: 100%;
+    top: -69px;
+    left: 0px;
+    padding: 20px 0px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-size: 20px;
+    text-transform: capitalize;
+    box-shadow: 0px 6px 0px #661355;
+    text-shadow: 2px 3px 0px rgba(0, 0, 0, 0.81);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    display: none;
+}
+
+#pricing .pricing-content .pricing-item .pricing-amount {
+    padding: 55px 0px 28px 0px;
+    border-bottom: 1px solid #6427b4;
+}
+
+#pricing .pricing-content .pricing-item .pricing-amount h2 {
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    color: white;
+    text-shadow: 2px 4px 0px rgba(0, 0, 0, 0.85);
+    padding-bottom: 15px;
+}
+
+#pricing .pricing-content .pricing-item .pricing-amount h3 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-size: 50px;
+    color: white;
+}
+
+#pricing .pricing-content .pricing-item .pricing-amount h4 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-size: 14px;
+    color: white;
+}
+
+#pricing .pricing-content .pricing-item ul li {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    padding-top: 25px;
+}
+
+#pricing .pricing-content .pricing-item .pricing-btn a {
+    display: inline-block;
+    text-align: center;
+    padding: 12px 25px;
+    background: linear-gradient(to top, #5a10cb, #9c4cfa);
+    color: white;
+    border-radius: 5px;
+    font-family: 'Anton', sans-serif;
+    font-size: 22px;
+    box-shadow: 0px 5px 0px #3a0090;
+    text-shadow: 2px 3px 0px rgba(0, 0, 0, 0.53);
+    position: absolute;
+    left: 50%;
+    bottom: -25px;
+    transform: translateX(-50%);
+    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.83);
+    transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+
+#pricing .pricing-content .pricing-item .pricing-btn a:hover {
+    background: linear-gradient(to top, #a90287, #fb37d9);
+    box-shadow: 0px 4px 0px rgba(102, 19, 85, 0.89);
+    text-shadow: 2px 3px 0px rgba(0, 0, 0, 0.53);
+}
+
+#pricing .pricing-content .pricing-item:hover h5 {
+    display: block;
+}
+
+#pricing .pricing-content .pricing-item:hover {
+    transform: translateY(30px);
+}
+
+#pricing .pricing-content .pricing-item:hover .pricing-btn a {
+    background: linear-gradient(to top, #a90287, #fb37d9);
+    box-shadow: 0px 4px 0px rgba(102, 19, 85, 0.89);
+    text-shadow: 2px 3px 0px rgba(0, 0, 0, 0.53);
+}
+
+/*pricing css end*/
+/*question css start*/
+#question {
+    background: #150035;
+    padding: 100px 0px;
+}
+
+#question h2 {
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #fec40f;
+    text-shadow: 0px 0px 17px #aa0389;
+    border-bottom: 2px solid black;
+    padding-bottom: 25px;
+}
+
+#question .question-left ul {
+    padding-left: 30px;
+}
+
+#question .question-left ul li {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-size: 20px;
+    color: white;
+    position: relative;
+    padding-top: 60px;
+}
+
+#question .question-left ul li i {
+    position: absolute;
+    right: 50px;
+}
+
+#question .question-left .text {
+    border: 1px solid #fcb100;
+    margin-top: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#question .question-left .text ul li {
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
+
+#question .question-left .text p {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#question .question-right .timer {
+    padding-top: 30px;
+    display: flex;
+}
+
+#question .question-right .timer h5 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-size: 20px;
+    color: white;
+    padding-right: 45px;
+    padding-top: 25px;
+}
+
+#question .question-right .timer .time ul {
+    display: flex;
+}
+
+#question .question-right .timer .time ul li {
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    border: 1px solid #f3a024;
+    margin-right: 30px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#question .question-right .timer .time ul li p {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-size: 20px;
+    color: #f39f24;
+
+}
+
+#question .question-right .timer .time ul li p:first-of-type {
+    /*    padding-top: 5px;*/
+}
+
+#question .question-right .country ul {
+    padding-top: 50px;
+}
+
+#question .question-right .country ul li {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    border-bottom: 1px solid black;
+}
+
+#question .question-right .country ul li p {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+}
+
+#question .question-right .country ul li h5 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+}
+
+/*question css end*/
+/*paymet css start*/
+#payment {
+    background: linear-gradient(to top, #5b11cb, #9c4cfb);
+    padding: 30px 0px;
+    border-bottom: 3px solid #3a0090;
+}
+
+#payment h2 {
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    color: white;
+    text-shadow: 2px 3px 0px black;
+    padding-bottom: 15px;
+}
+
+#payment .offer input {
+    width: 498px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 1px solid #3a0090;
+    padding: 10px 0px 10px 10px;
+    color: white;
+}
+
+#payment .offer a i {
+    color: #3a0090;
+    padding: 12.1px;
+    border: 1px solid #3a0090;
+    font-size: 19px;
+    margin-left: -5px;
+    border-left: none;
+}
+
+/*paymet css end*/
+/*footer css start*/
+footer {
+    background: #0b001b;
+    padding: 60px 0px 70px 0px;
+}
+
+footer h2 {
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    color: white;
+    padding-bottom: 30px;
+}
+
+footer .jackpot p {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-size: 15px;
+    color: white;
+    line-height: 26px;
+    padding-bottom: 39px;
+}
+
+footer .jackpot ul li a i {
+    float: left;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    background: linear-gradient(to top, #5c11cb, #9b4cfa);
+    box-shadow: 0px 2px 0px #3a0090;
+    margin-right: 15px;
+    text-shadow: 2px 2px 0px black;
+    position: relative;
+    z-index: 1;
+}
+
+footer .jackpot ul li a i::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background: transparent;
+    transform: scale(0);
+    z-index: -1;
+    transition: all linear 0.7s;
+    -moz-transition: all linear 0.7s;
+    -ms-transition: all linear 0.7s;
+    -webkit-transition: all linear 0.7s;
+    -o-transition: all linear 0.7s;
+}
+
+footer .jackpot ul li a i:hover::after {
+    background: linear-gradient(to top, #ab0288, #fc37d9);
+    box-shadow: 0px 2px 0px #661355;
+    transform: scale(1);
+}
+
+footer .links .links-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .links .links-content ul li {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    padding-bottom: 16px;
+}
+
+footer .security .content {
+    padding-bottom: 55px;
+}
+
+footer .security .content img {
+    position: absolute;
+}
+
+footer .security .text p {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-size: 14px;
+    color: white;
+    padding-left: 100px;
+}
+
+/*footer css end*/
+/*last footer css start*/
+.last-footer {
+    background: #0b001b;
+    border-top: 1px solid #290a59;
+}
+
+.last-footer p {
+    padding: 20px 0px;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/*last footer css end*/
+/*scorll btn css start*/
+.scroll-btn {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: none;
+}
+
+.scroll-btn i {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 1px solid #af058c;
+    color: #af058c;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 1;
+    transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+
+.scroll-btn i:hover {
+    color: white;
+}
+
+.scroll-btn i::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 50%;
+    background: transparent;
+    z-index: -1;
+    transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+    transform: scale(0);
+}
+
+.scroll-btn i:hover::after {
+    transform: scale(1);
+    background: #af058c;
+}
+
+/*scorll btn css end*/
